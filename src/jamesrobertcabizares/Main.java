@@ -19,8 +19,9 @@ public class Main {
         
         switch(choice){
             case 1:
-       bankApp bc = new bankApp();
-             int attempts = 3;
+       
+            bankApp bc = new bankApp();
+            int attempts = 3;
 
                 while (attempts > 0) {
                 System.out.print("Enter your Account No: ");
